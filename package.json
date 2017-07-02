@@ -1,13 +1,15 @@
 {
   "name": "passport-workweixin",
-  "version": "0.1.1",
+  "version": "0.3.0",
   "description": "work weixin passport support",
   "engines": {
     "node": ">=6.0.0"
   },
   "main": "./lib",
   "dependencies": {
-    "passport-oauth2": "1.x.x"
+    "assert": "^1.4.1",
+    "passport-oauth2": "1.x.x",
+    "urllib": "^2.22.0"
   },
   "devDependencies": {
     "make-node": "0.3.x",
@@ -26,10 +28,8 @@
     "url": "git+https://github.com/liyunde/egg-passport-workweixin.git"
   },
   "keywords": [
-    "egg",
-    "eggPlugin",
-    "egg-passport",
-    "egg-passport-workweixin"
+    "passport",
+    "passport-workweixin"
   ],
   "author": "liyunde",
   "license": "Apache 2.0",
